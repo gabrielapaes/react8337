@@ -16,7 +16,7 @@ function createStore (reducer) {
     subscribers.forEach(func => func());
   }
 
-  function subscribe (func) {
+  function subscribeeee (func) {
     subscribers.push(func);
   }
 }
